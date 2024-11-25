@@ -1,17 +1,35 @@
+
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url(https://media.istockphoto.com/id/699729488/es/vector/explosi%C3%B3n-nuclear-bomba-at%C3%B3mica-en-la-ciudad-s%C3%ADmbolo-de-la-guerra-nuclear-fin-del-mundo.jpg?s=612x612&w=0&k=20&c=dnXT0fS1GxvyZcq5k7YjtWKoiIn9fXpRUkA57wgE13U= );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h1 {
-  color: #333;
-}
-#result .green {
-  color: #2ecc71;
+#countdown {
+  font-size: 24px;
+  font-weight: bold;
+  color: red; /
 }
 
-#result .red {
-  color: #e74c3c;
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+button{
+  background-color: rgb(15, 73, 160);
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+}
+p{ 
+  color: beige;
+}
+
+#result{
+ 
+  color: black;
+ 
 }
